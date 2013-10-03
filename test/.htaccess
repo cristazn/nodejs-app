@@ -1,7 +1,0 @@
-Options +FollowSymLinks
- 
-RewriteEngine On
-RewriteBase /
-RewriteCond %{REQUEST_URI} !^/index.php$ [NC]
-RewriteRule ^(.*)$ http://desolate-oasis-9626.herokuapp.com/index.php [L,R=301]
-
