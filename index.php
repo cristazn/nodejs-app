@@ -1,5 +1,5 @@
 <?php 
 session_start();
-echo 'dsada'
-//$_SESSION['views'] = 11111;
+echo 'dsada';
+$_SESSION['views'] = 11111;
 ?>
